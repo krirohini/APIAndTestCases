@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-23T18:03:31 PDT" name="Default suite" finished-at="2022-07-23T18:03:43 PDT" duration-ms="12338">
+    <groups>
+    </groups>
+    <test started-at="2022-07-23T18:03:31 PDT" name="Default test" finished-at="2022-07-23T18:03:43 PDT" duration-ms="12338">
+      <class name="com.rohini.predict.ReqresAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:31 PDT" name="beforeClass" finished-at="2022-07-23T18:03:31 PDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="createUser()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:31 PDT" name="createUser" description="Create User" finished-at="2022-07-23T18:03:33 PDT" duration-ms="2511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUserAndListAllUsers()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:33 PDT" name="createUserAndListAllUsers" description="Create an User and then get list of users." finished-at="2022-07-23T18:03:34 PDT" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAndListAllUsers -->
+        <test-method signature="deleteUser()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:34 PDT" name="deleteUser" description="Delete User" finished-at="2022-07-23T18:03:35 PDT" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="loginUserFailure()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:35 PDT" name="loginUserFailure" description="Login User Unsuccessfully" finished-at="2022-07-23T18:03:35 PDT" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserFailure -->
+        <test-method signature="registerUser()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:35 PDT" name="registerUser" description="Register User Successfully" finished-at="2022-07-23T18:03:36 PDT" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="registerUserFailure()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:36 PDT" name="registerUserFailure" description="Register User Unsuccessfully" finished-at="2022-07-23T18:03:36 PDT" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserFailure -->
+        <test-method signature="retrieveGvnUser()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:36 PDT" name="retrieveGvnUser" description="Retrieve User" finished-at="2022-07-23T18:03:37 PDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveGvnUser -->
+        <test-method signature="retrieveListOfUsers()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:37 PDT" name="retrieveListOfUsers" description="Retrieve List of User" finished-at="2022-07-23T18:03:37 PDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveListOfUsers -->
+        <test-method signature="updateUser()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:37 PDT" name="updateUser" description="Update User" finished-at="2022-07-23T18:03:37 PDT" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="userDelayed()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:37 PDT" name="userDelayed" description="https://reqres.in/api/users?delay=3" finished-at="2022-07-23T18:03:41 PDT" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDelayed -->
+        <test-method signature="validateUserRegistrationLoginFlows()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:41 PDT" name="validateUserRegistrationLoginFlows" description="Validate User flows" finished-at="2022-07-23T18:03:42 PDT" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserRegistrationLoginFlows -->
+        <test-method signature="loginUser()[pri:0, instance:com.rohini.predict.ReqresAPITest@793be5ca]" started-at="2022-07-23T18:03:42 PDT" name="loginUser" description="Login User Successfully after register the user" finished-at="2022-07-23T18:03:43 PDT" depends-on-methods="com.rohini.predict.ReqresAPITest.registerUser" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+      </class> <!-- com.rohini.predict.ReqresAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
